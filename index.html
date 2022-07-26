@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora Arbritrária</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1>Calculadora de Arbritagem</h1>
+    </header>
+    <main>
+        <section class="tipo-de-mercado">
+            <label> Tipo de mercado:
+            <select id="select">
+                <option>Bilateral</option>
+                <option>Trilateral</option>
+            </select>
+        </label>
+        </section>
+        <section>
+            <table id="table1">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Probabilidades</th>
+                        <th>Montante da aposta</th>
+                        <th>Retorno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Aposta Original</th>
+                        <td class="td-input"><input id="oddEnter" type="number" placeholder="Inserir Probabilidade"></td>
+                        <td class="td-input"><input id="valueEnter" type="number" placeholder="Inserir Aposta"></td>
+                        <td><p id="retorno-aposta">-</p></td>
+                    </tr>
+                    <tr>
+                        <th>Cobertura</th>
+                        <td class="td-input"><input id="oddSaida" type="number" placeholder="Inserir Probabilidade"></td>
+                        <td><p id="valueSaida">-</p></td>
+                        <td><p id="retorno-cobertura">-</p></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div class="btn">
+                <button id="button">Calcular</button>
+            </div>
+        </section>
+        <section>
+            <table class="table2">
+                <tr>
+                    <th>Montante de aposta</th>
+                    <td><p id="montAposta">-</p></td>
+                </tr>
+                <tr>
+                    <th>Pagamento Total</th>
+                    <td><p id="totalPagment">-</p></td>
+                </tr>
+                <tr>
+                    <th id="mensagem">Lucro de Cobertura x Unidades</th>
+                    <td><p id="lucro">R$0,00</p></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</div>
+</body>
+<script src="./script.js"></script>
+</html>

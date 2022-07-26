@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    height: 100vh;
+    background-color: #E8ECF3;
+}
+main{
+    padding: 10px
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: #062648;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tipo-de-mercado{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-bottom: 30px ;
+}
+th,td{
+    border: solid 1px;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.td-input{
+    padding: 0;
+    background-color: #fff;
+}
+input{
+    text-align: center;
+    outline: 0;
+    border: none;
+    appearance: none;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.btn button{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+
+}
+.table2{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
