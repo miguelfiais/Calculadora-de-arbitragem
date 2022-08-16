@@ -46,6 +46,7 @@ const calcular = () => {
     const montAposta = document.getElementById("montAposta")
     const totalPagment = document.getElementById("totalPagment")
     const lucro = document.getElementById("lucro")
+    const mensagem = document.getElementById("mensagem")
 
     if (select.value === "Bilateral") {
         
@@ -93,8 +94,6 @@ const calcular = () => {
             lucro.style.backgroundColor = "red"
             lucro.innerHTML = `R$ ${result.toFixed(2) * -1}`
         }
-
-
     }
 }
 button.addEventListener("click", calcular)
