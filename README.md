@@ -10,6 +10,8 @@ A calculadora de arbitragem serve para descobrir como garantir lucro num mercado
 
 ## 🖥 Demo
 
+- [Aplicação](https://miguelfiais.github.io/Calculadora-de-arbitragem/)
+
 <img src="https://github.com/miguelfiais/Calculadora-de-arbitragem/blob/main/templatecalc.png"/>
 
 ## 🛠️ Tecnologias ##
